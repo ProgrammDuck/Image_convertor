@@ -1,0 +1,20 @@
+# === PYTHON ===
+__pycache__/
+build/
+dist/
+
+# === CONFIGS AND SECRETS ===
+.env
+*.idea
+.idea
+
+
+# === LOGS ===
+bot_logs.log
+*.log
+.venv
+main.spec
+
+# === BATS ===
+start.bat
+stop.bat
