@@ -14,6 +14,7 @@ main.spec
 bot_logs.log
 *.log
 .venv
+main.spec
 
 # === BATS ===
 start.bat

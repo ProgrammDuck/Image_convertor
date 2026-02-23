@@ -110,7 +110,7 @@ entry.bind("<Control-KeyPress>", handle_hotkeys)
 Download_button = tk.Button(root, text="Download", bg="#4CAF50", fg="white", font=("Arial", 12), command=lambda: download_image(entry))
 Download_button.grid(row=2, column=0, pady=5)
 
-theme_btn = tk.Button(root, text="🌙 Тема", font=("Arial", 10), command=toggle_theme)
+theme_btn = tk.Button(root, text="🌙 Theme", font=("Arial", 10), command=toggle_theme)
 theme_btn.grid(row=3, column=0, padx=5)
 
 image_label = tk.Label(root)
@@ -121,7 +121,7 @@ format_menu = ttk.Combobox(root, textvariable=format_var,
                             values=["PNG", "JPG", "WEBP", "BMP", "GIF"], 
                             width=10, state="readonly")
 
-convert_btn = tk.Button(root, text="Конвертировать", bg="#2196F3", fg="white",
+convert_btn = tk.Button(root, text="Convert", bg="#2196F3", fg="white",
                         font=("Arial", 12), command=convert_image)
 
 
