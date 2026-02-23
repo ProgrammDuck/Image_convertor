@@ -7,7 +7,6 @@ dist/
 .env
 *.idea
 .idea
-main.spec
 
 
 # === LOGS ===
